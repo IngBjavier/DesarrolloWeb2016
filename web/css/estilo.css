@@ -1,0 +1,214 @@
+*
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+table
+{
+	background-color:#F60;
+	max-width: 100%;
+	margin-left: 27%;
+	
+
+}
+
+body
+{
+	font-family: helvetica;
+	font-size: 16px;
+	background: lavender; 
+	text-align: center;
+	background-color: #212121;
+	margin: 0, auto
+	
+}
+
+
+fieldset 
+{
+	border: thin solid;
+	background: #F60;
+	padding: 1em;
+	border-radius: 1em; 
+	width: 50%;
+	margin: 0, auto;
+   margin: 0 auto;
+
+}
+
+form
+{
+	margin: 0 auto;
+	width: 80%;
+	border-radius: 1em; 
+	background: white;
+
+}
+
+legend
+{
+	color: #F60;
+	font-size: 2em;
+	font-weight: bold;;
+}
+
+input[type="submit"], a 
+{
+	background: #F60;
+	border: thin solid transparent;
+	border-radius: 1em;
+	cursor: pointer;
+	font-size: 1em;
+	padding: 0.5em;
+
+
+}
+a{
+	text-decoration:none; 
+	color: #000000;
+}
+a:hover 
+{
+	background: skyblue;
+	border: thin solid #F60;
+	border-radius: #F60;
+	border-radius: 0;
+}
+input[type="submit"]:hover 
+{
+	background: skyblue;
+	border: thin solid #F60;
+	border-radius: #F60;
+	border-radius: 0;
+}
+input[type="button"], button
+{
+	background: #F60;
+	border: thin solid transparent;
+	cursor: pointer;
+	font-size: 1em;
+	padding: 0.5em;
+	border-radius: 1em;
+
+}
+button
+{
+	background: #F60;
+	border: thin solid transparent;
+	border-radius: #FFF;
+	cursor: pointer;
+	font-size: 1em;
+	padding: 0.5em;
+
+}
+input[type="button"]:hover 
+{
+	background: skyblue;
+	border: thin solid #F60;
+	border-radius: #F60;
+	border-radius: 0;
+}
+input[type="text"], textarea
+{
+	background: #DDD;
+	border-radius: 1em;
+	border: thin solid skyblue;
+	color: #F60;
+	font-size: 1em;
+	padding: 0.25em;
+
+}
+input[type="number"], textarea
+{
+	background: #DDD;
+	border-radius: 1em;
+	border: thin solid skyblue;
+	color: #F60;
+	font-size: 1em;
+	padding: 0.25em;
+
+}
+input[type="password"], textarea
+{
+	background: #DDD;
+	border-radius: 1em;
+	border: thin solid skyblue;
+	color: #F60;
+	font-size: 1em;
+	padding: 0.25em;
+
+}
+input[type="radio"], label 
+{
+	cursor: pointer;
+}
+textarea
+{
+	resize: none;
+}
+.cambio
+{
+	-ms-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+}
+
+:focus
+{
+	box-shadow: 0.1em 0.1em 0.5em rgba(255, 102, 0, .5);
+	outline: thin solid #F60;
+
+ }
+
+
+
+@font-face {
+    font-family: 'pecitamedium';
+    src: url('pecita-webfont.woff2') format('woff2'),
+         url('pecita-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1, h4
+{
+	color: #F60;
+	margin: 0.25em auto;
+	text-align: center; 
+	text-shadow: 5px 5px 10px rgba(255,255,255,0.5) ;
+}
+
+
+
+
+
+
+
+}
+#Error{
+
+background-repeat: no-repeat;
+background-position: 395px;
+color: #FF0000;
+padding-left: 240px;
+height: px;
+padding-top: 6px;
+padding-right: 10px;
+
+	}
+
+#Success{
+
+background-repeat: no-repeat;
+background-position: right;
+color: #669933;
+padding-left: 250px;
+height: px;
+padding-top: 6px;
+padding-right: 10px;
+

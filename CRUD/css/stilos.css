@@ -1,0 +1,33 @@
+*
+{
+	border: 0;
+	margin: 0; /*elementos del modelo de caja */
+	padding: 0;
+
+}
+
+h2, a
+{
+	color: #F60;
+	margin: 0.25em auto;
+	text-align: center; 
+	text-shadow: 5px 5px 10px rgba(255,255,255,0.5) ;
+}
+a{
+	color: #212121;
+	text-decoration: none;
+}
+
+table
+{
+	background-color: #F60;
+		
+	width: 100%;
+}
+body
+{
+	
+	font-size: 16px;
+	background-color: #212121;
+	margin: 0, auto;
+}
